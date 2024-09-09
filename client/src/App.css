@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #282c34;
+  margin-bottom: 20px;
+}
+
+.information {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4fa3b4;
+}
+
+.actions {
+  margin: 20px;
+}
+
+.data-display {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.data-display div {
+  margin-bottom: 15px;
+}
+
+.data-display p {
+  margin: 5px 0;
+  font-size: 16px;
+}
